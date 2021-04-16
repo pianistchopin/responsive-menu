@@ -91,9 +91,6 @@ label.jm-menu-btn:hover {
 }
 
 
-
-
-
 .sub-jm-dropdown{
   position: relative;
   width: 100%;
@@ -160,30 +157,26 @@ li:hover .jm-icon-dropdown {
     white-space: nowrap;
   }
   
+  .sub-jm-dropdown:hover .submenu1{
+    display: block;
+  }
 
-
-  
-.sub-jm-dropdown:hover .submenu1{
-  display: block;
-}
-
-.sub-jm-dropdown .submenu1{
-  box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 50%);
-    padding: 8px 0;
-    position: absolute;
-    min-width: 100%;
-    width: 100%;
-    left: 100%;
-    top: 0;
-    display: none;
-}
+  .sub-jm-dropdown .submenu1{
+    box-shadow: 1px 1px 3px 0 rgb(0 0 0 / 50%);
+      padding: 8px 0;
+      position: absolute;
+      min-width: 100%;
+      width: 100%;
+      left: 100%;
+      top: 0;
+      display: none;
+  }
   .jm-dropdown ul {
     box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .5);
     padding: 8px 0;
     position: absolute;
     min-width: 100%;
   }
-  
 
   /* Menu Button */
   input.jm-menu-btn,
